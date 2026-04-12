@@ -1,0 +1,100 @@
+/* GENERAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+}
+
+/* NAVBAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: #ffffff;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background: #fff;
+    align-items: center;
+}
+
+.hero-text h3 {
+    color: red;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+}
+
+.hero-text p {
+    color: gray;
+}
+
+.hero-text button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-image img {
+    width: 260px;
+    border-radius: 50%;
+}
+
+/* TASTE SECTION */
+.taste {
+    display: flex;
+    padding: 50px;
+}
+
+.taste-text {
+    flex: 1;
+}
+
+.taste-text h2 {
+    font-size: 28px;
+}
+
+.gallery {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #eee;
+}

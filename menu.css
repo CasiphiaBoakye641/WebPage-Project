@@ -1,0 +1,78 @@
+/* GENERAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+}
+
+/* NAVBAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* MENU PAGE */
+.menu-page {
+    padding: 50px;
+    text-align: center;
+}
+
+.menu-page h1 {
+    margin-bottom: 30px;
+}
+
+/* MENU GRID */
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.menu-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.menu-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu-card h3 {
+    margin: 10px 0 5px;
+}
+
+.menu-card p {
+    color: gray;
+}
+
+/* HOVER EFFECT */
+.menu-card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #eee;
+}
